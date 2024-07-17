@@ -10,7 +10,6 @@ export default props => {
 
         /* TouchableHighlight é um espaço onde podemos tocar */
         /* Quando clica, chama uma função que será passada por parametro */
-        /* Só não entendi o porque de ser arrow function ainda, está confuso */
         <TouchableHighlight onPress={() => props.onClick(props.label)} > 
 
             <Text style={estilo} > {props.label} </Text> 

@@ -11,6 +11,7 @@ export default StyleSheet.create({
         flexDirection: 'row',
         flexWrap: 'wrap', 
         justifyContent: "center", 
+        backgroundColor: "rgba(0,0,0,0.6)",
     },
 
     button: {
@@ -20,7 +21,7 @@ export default StyleSheet.create({
       padding: 20,
       backgroundColor: '#f0f0f0',
       textAlign: 'center',
-      borderWidth: 1,
+      borderWidth: 0.3,
       borderColor: '#888', 
   },
 
@@ -31,7 +32,7 @@ export default StyleSheet.create({
       padding: 20,
       backgroundColor: '#f0f0f0',
       textAlign: 'center',
-      borderWidth: 1,
+      borderWidth: 0.3,
       borderColor: '#888', 
   },
 
@@ -42,7 +43,7 @@ export default StyleSheet.create({
       padding: 20,
       backgroundColor: '#FF918E',
       textAlign: 'center',
-      borderWidth: 1,
+      borderWidth: 0.3,
       borderColor: '#888', 
   },
 
@@ -53,7 +54,7 @@ export default StyleSheet.create({
     padding: 20,
     backgroundColor: '#A08CFF',
     textAlign: 'center',
-    borderWidth: 1,
+    borderWidth: 0.3,
     borderColor: '#888', 
 },
 
@@ -64,7 +65,7 @@ buttonDigitos: {
   padding: 20,
   backgroundColor: '#FFD060',
   textAlign: 'center',
-  borderWidth: 1,
+  borderWidth: 0.3,
   borderColor: '#888', 
 },
 

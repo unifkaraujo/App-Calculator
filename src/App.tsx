@@ -3,7 +3,6 @@ import { View, Text, StyleSheet, SafeAreaView, Dimensions } from 'react-native'
 import Estilo from './components/estilo'
 import Button from './components/button'
 import Display from './components/display'
-import Createdby from './components/createdby'
 
 const initialState = {
   displayValue: '0',
@@ -84,7 +83,6 @@ export default class App extends Component {
     return (
       <SafeAreaView style={styleApp.App}>
 
-        <Createdby />
         <Display value={this.state.displayValue}/>
 
         <View style={Estilo.Button} > 
